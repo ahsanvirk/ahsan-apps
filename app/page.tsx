@@ -32,7 +32,8 @@ export default function HomePage() {
   }, []);
 
   return (
-    <div className="container">
+    <div className="landing-page-wrapper">
+      <div className="container">
       {/* AhsanApps Logo */}
       <div className="logo-container fade-in">
         <Image 
@@ -66,6 +67,7 @@ export default function HomePage() {
         <Link href="/clearAccent" className="join-button">
           Join Waitlist →
         </Link>
+      </div>
       </div>
     </div>
   );
