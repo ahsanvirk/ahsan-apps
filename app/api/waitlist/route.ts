@@ -37,6 +37,18 @@ export async function POST(req: Request) {
     );
   }
 
+  // Check if Supabase is configured
+  const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL || '';
+  const supabaseAnonKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY || '';
+  
+  if (!supabaseUrl || !supabaseAnonKey || supabaseUrl === 'https://placeholder.supabase.co' || supabaseAnonKey === 'placeholder-key') {
+    console.error('Supabase environment variables not configured');
+    return NextResponse.json(
+      { ok: false, message: "Waitlist service is not configured. Please contact support." },
+      { status: 500 }
+    );
+  }
+
   try {
     // Insert into Supabase
     const { error } = await supabase
@@ -54,7 +66,7 @@ export async function POST(req: Request) {
       
       console.error('Supabase error:', error);
       return NextResponse.json(
-        { ok: false, message: "Failed to join waitlist. Please try again." },
+        { ok: false, message: `Failed to join waitlist: ${error.message || 'Please try again.'}` },
         { status: 500 }
       );
     }
