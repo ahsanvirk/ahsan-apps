@@ -194,7 +194,7 @@ export default function Page() {
           <h2 className="text-center text-4xl font-semibold tracking-tight sm:text-5xl">
             The only{" "}
             <GradientWord from="from-cyan-300" via="via-emerald-300" to="to-purple-400">
-              Corporate Voice
+              Accent Training
             </GradientWord>{" "}
             app you need
           </h2>
