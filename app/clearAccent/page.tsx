@@ -43,14 +43,18 @@ export default function Page() {
   mixpanel.init('73e0b052cc708f5c829e604fdda7d4ed', {
     autocapture: true,
     record_sessions_percent: 100,
-  });
-
-  // Explicit page view to help Mixpanel verify connection immediately
-  if (typeof mixpanel !== 'undefined' && mixpanel.track_pageview) {
-    mixpanel.track_pageview();
-  } else if (typeof mixpanel !== 'undefined' && mixpanel.track) {
-    mixpanel.track('Page View');
-  }`}
+    // Many browsers/extensions block analytics when Do Not Track is enabled.
+    // This helps ensure events are sent for connection verification.
+    ignore_dnt: true,
+    debug: true,
+    loaded: function (mp) {
+      if (mp && mp.track_pageview) {
+        mp.track_pageview();
+      } else if (mp && mp.track) {
+        mp.track('Page View');
+      }
+    }
+  });`}
       </Script>
 
       <main className="relative min-h-screen overflow-hidden bg-bg-950" suppressHydrationWarning>
