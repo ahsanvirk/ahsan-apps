@@ -342,6 +342,18 @@ mixpanel.init('73e0b052cc708f5c829e604fdda7d4ed', {
                   height="72"
                 />
               </a>
+              <a
+                href="https://fazier.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="transition-opacity hover:opacity-90"
+              >
+                <img
+                  src="https://fazier.com/api/v1//public/badges/launch_badges.svg?badge_type=launched&theme=light"
+                  width="120"
+                  alt="Fazier badge"
+                />
+              </a>
               <a className="transition hover:text-white" href="#join">
                 Join
               </a>
