@@ -329,6 +329,19 @@ mixpanel.init('73e0b052cc708f5c829e604fdda7d4ed', {
             </div>
 
             <div className="flex items-center gap-5 text-sm text-white/55">
+              <a
+                href="https://foundrlist.com/product/clearaccentwaitlist"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="transition-opacity hover:opacity-90"
+              >
+                <img
+                  src="https://foundrlist.com/api/badge/clearaccentwaitlist"
+                  alt="Live on FoundrList"
+                  width="180"
+                  height="72"
+                />
+              </a>
               <a className="transition hover:text-white" href="#join">
                 Join
               </a>
