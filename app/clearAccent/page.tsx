@@ -354,6 +354,19 @@ mixpanel.init('73e0b052cc708f5c829e604fdda7d4ed', {
                   alt="Fazier badge"
                 />
               </a>
+              <a
+                href="https://twelve.tools"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="transition-opacity hover:opacity-90"
+              >
+                <img
+                  src="https://twelve.tools/badge0-dark.svg"
+                  alt="Featured on Twelve Tools"
+                  width="200"
+                  height="54"
+                />
+              </a>
               <a className="transition hover:text-white" href="#join">
                 Join
               </a>
