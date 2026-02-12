@@ -379,6 +379,19 @@ mixpanel.init('73e0b052cc708f5c829e604fdda7d4ed', {
                   style={{ height: 54, width: "auto" }}
                 />
               </a>
+              <a
+                href="https://showmebest.ai"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="transition-opacity hover:opacity-90"
+              >
+                <img
+                  src="https://showmebest.ai/badge/feature-badge-white.webp"
+                  alt="Featured on ShowMeBestAI"
+                  width="220"
+                  height="60"
+                />
+              </a>
               <a className="transition hover:text-white" href="#join">
                 Join
               </a>
