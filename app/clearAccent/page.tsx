@@ -367,6 +367,18 @@ mixpanel.init('73e0b052cc708f5c829e604fdda7d4ed', {
                   height="54"
                 />
               </a>
+              <a
+                href="https://turbo0.com/item/clear-accent"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="transition-opacity hover:opacity-90"
+              >
+                <img
+                  src="https://img.turbo0.com/badge-listed-light.svg"
+                  alt="Listed on Turbo0"
+                  style={{ height: 54, width: "auto" }}
+                />
+              </a>
               <a className="transition hover:text-white" href="#join">
                 Join
               </a>
