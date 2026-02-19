@@ -103,11 +103,11 @@ mixpanel.init('73e0b052cc708f5c829e604fdda7d4ed', {
               </div>
 
               <h1 className="mt-6 text-5xl font-semibold leading-[0.95] tracking-tight sm:text-6xl lg:text-7xl">
-                Get your{" "}
+                Your journey to a{" "}
                 <GradientWord from="from-cyan-300" via="via-emerald-300" to="to-purple-400">
-                  Corporate Accent Score™
+                  Clear Accent
                 </GradientWord>{" "}
-                in 15 seconds
+                starts here
               </h1>
 
               <p className="mt-6 max-w-xl text-lg leading-relaxed text-white/70">
