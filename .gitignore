@@ -1,0 +1,15 @@
+.DS_Store
+*.log
+node_modules/
+.env
+.env.local
+.env*.local
+
+# Next.js
+.next/
+out/
+build/
+dist/
+
+# Vercel
+.vercel
