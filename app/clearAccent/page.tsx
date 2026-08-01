@@ -300,11 +300,11 @@ mixpanel.init('73e0b052cc708f5c829e604fdda7d4ed', {
             <div className="grid gap-10 rounded-3xl bg-white/5 p-8 ring-1 ring-white/10 md:grid-cols-2 md:items-center md:p-10">
               <div>
                 <h3 className="text-3xl font-semibold tracking-tight sm:text-4xl">
-                  Built for real meetings
+                  Sound more American, faster
                 </h3>
                 <p className="mt-4 text-lg leading-relaxed text-white/65">
-                  Tap once, record naturally in your normal meeting voice, and get actionable feedback
-                  you can apply immediately in your next call.
+                  Get your accent score and personalized feedback in seconds — then apply it right
+                  away in real conversations.
                 </p>
                 <div className="mt-8 max-w-md">
                   <DownloadBadges />
