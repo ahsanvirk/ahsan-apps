@@ -27,7 +27,7 @@ export function ClearAccentSubpage({
               Features
             </Link>
             <Link className="transition hover:text-white" href="/clearAccent#join">
-              Join Waitlist
+              Download
             </Link>
             <Link className="transition hover:text-white" href="/clearAccent/Support">
               Support

@@ -6,8 +6,8 @@ const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 const geist = Geist({ subsets: ["latin"], variable: "--font-geist" });
 
 export const metadata: Metadata = {
-  title: "AhsanApps - Clear Accent Waitlist",
-  description: "Join the waitlist for Clear Accent - Train Your Corporate Voice"
+  title: "AhsanApps - Clear Accent",
+  description: "Download Clear Accent - Train Your American Voice"
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

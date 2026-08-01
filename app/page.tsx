@@ -61,10 +61,10 @@ export default function HomePage() {
         </div>
         <div className="app-info">
           <h2 className="app-name">Clear Accent</h2>
-          <p className="app-tagline">Train Your Corporate Voice</p>
+          <p className="app-tagline">Train Your American Voice</p>
         </div>
         <Link href="/clearAccent" className="join-button">
-          Join Waitlist →
+          Download Now →
         </Link>
       </div>
       </div>

@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Script from "next/script";
 import { IPhoneFrame } from "@/components/IPhoneFrame";
-import { WaitlistForm } from "@/components/WaitlistForm";
+import { DownloadBadges } from "@/components/DownloadBadges";
 
 function GradientWord({
   children,
@@ -89,7 +89,7 @@ mixpanel.init('73e0b052cc708f5c829e604fdda7d4ed', {
                 Features
               </a>
               <a className="transition hover:text-white" href="#join">
-                Join Waitlist
+                Download
               </a>
               <a className="transition hover:text-white" href="/clearAccent/Support">
                 Support
@@ -108,7 +108,7 @@ mixpanel.init('73e0b052cc708f5c829e604fdda7d4ed', {
             <div>
               <div className="inline-flex items-center gap-2 rounded-full bg-white/5 px-4 py-2 text-xs text-white/60 ring-1 ring-white/10">
                 <span className="h-2 w-2 rounded-full bg-emerald-300/90" />
-                Early access coming soon
+                Early access on iOS
               </div>
 
               <h1 className="mt-6 text-5xl font-semibold leading-[0.95] tracking-tight sm:text-6xl lg:text-7xl">
@@ -127,12 +127,12 @@ mixpanel.init('73e0b052cc708f5c829e604fdda7d4ed', {
                 and credible.
               </p>
 
-              <div id="join" className="mt-8 max-w-xl rounded-2xl bg-white/5 p-4 ring-1 ring-white/10">
-                <WaitlistForm buttonText="Join Waitlist →" />
+              <div id="join" className="mt-8 max-w-xl">
+                <DownloadBadges layout="row" />
               </div>
 
               <p className="mt-3 text-xs text-white/40">
-                Join thousands of professionals waiting to transform their corporate voice
+                Available on iOS now • Android coming soon
               </p>
             </div>
 
@@ -252,7 +252,7 @@ mixpanel.init('73e0b052cc708f5c829e604fdda7d4ed', {
               {[
                 {
                   icon: "📊",
-                  title: "Corporate Accent Score™",
+                  title: "American Accent Score",
                   desc: "Get your score in 15 seconds. See how clearly and confidently your voice is perceived in U.S. corporate settings."
                 },
                 {
@@ -307,7 +307,7 @@ mixpanel.init('73e0b052cc708f5c829e604fdda7d4ed', {
                   you can apply immediately in your next call.
                 </p>
                 <div className="mt-8 max-w-md">
-                  <WaitlistForm buttonText="Join Waitlist →" />
+                  <DownloadBadges />
                 </div>
               </div>
 
@@ -402,7 +402,7 @@ mixpanel.init('73e0b052cc708f5c829e604fdda7d4ed', {
                 />
               </a>
               <a className="transition hover:text-white" href="#join">
-                Join
+                Download
               </a>
               <a className="transition hover:text-white" href="#features">
                 Features
