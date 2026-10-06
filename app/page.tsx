@@ -46,7 +46,7 @@ export default function HomePage() {
       </div>
 
       {/* Waitlist Text */}
-      <h1 className="waitlist-text fade-in-delay-1">Join the waitlist of my next app now!</h1>
+      <h1 className="waitlist-text fade-in-delay-1">Download my latest app now!</h1>
 
       {/* App Card */}
       <div className="app-card fade-in-delay-2">
